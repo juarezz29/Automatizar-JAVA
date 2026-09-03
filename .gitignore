@@ -1,0 +1,11 @@
+target/
+allure-results/
+allure-report/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+
+.fake
