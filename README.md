@@ -1,4 +1,4 @@
-# Automation Java Portfolio
+# Automation Java 
 
 Proyecto base de automatización web para portfolio. Automatiza el login de [SauceDemo](https://www.saucedemo.com/) con Java, Selenium, Cucumber y Allure.
 
@@ -70,7 +70,7 @@ mvn allure:report
 - `driver`: administra una instancia del navegador por escenario.
 - `features`: escenarios BDD escritos en español.
 
-## Próximas mejoras para el portfolio
+## Próximas mejoras 
 
 1. Crear `InventoryPage` y `CartPage` para agregar y quitar productos.
 2. Automatizar checkout válido y validaciones de campos obligatorios.
