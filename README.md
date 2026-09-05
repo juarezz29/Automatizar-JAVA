@@ -37,8 +37,16 @@ mvn clean test -Dbrowser=firefox
 Para ejecutar solo los escenarios smoke:
 
 ```powershell
-mvn clean test -Dcucumber.filter.tags="@smoke"
+mvn clean test "-Dcucumber.filter.tags=@smoke"
 ```
+
+Para ver el navegador más despacio mientras aprendés, agregá una pausa (en milisegundos) después de cada paso Gherkin:
+
+```powershell
+mvn clean test "-DstepDelayMs=1500"
+```
+
+La pausa está desactivada por defecto. No la uses en CI/CD: es una ayuda visual para practicar o depurar.
 
 ## Ver reportes
 
